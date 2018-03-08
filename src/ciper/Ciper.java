@@ -21,22 +21,14 @@ public class Ciper {
        Decrypt D = new Decrypt();
        keyGenerater K = new keyGenerater();
        //e.getAscii("lakshi athapaththu kavmini");
-       String text = "i went home with my honeY";
+       String text = "lakshi athapaththu avindu dinushan aiya baba";
         //System.out.println(K.generateKey());
-        //String encry = (e.getEncryoted(text));
-        System.out.println(e.getEncryoted(text));
-        //String k =(e.getKey());
-        //System.out.println(k);
-        //System.out.println(D.decryptText(encry,k));
+        String encry = (e.getEncryoted(text));
+        System.out.println(encry);
+        String keyelement = e.getKey();
+        System.out.println(keyelement);
+        System.out.println(D.decryptText(encry,keyelement));
         
-        //System.out.println(e.sperate("15324",(F.getAscii(text, 8)) ,5));
-        //String a =e.shuffle((e.sperate("15324",(F.getAscii(text, 8)) ,5)),"15324", 8, 5);
-        //System.out.println(a);
-        //String b = (e.substitute(a, "15324",34));
-        //System.out.println(b);
-        //String c=(D.removeSubstitute(b,"15324", 34));
-        //System.out.println(c);
-        //System.out.println(D.removeShuffle(c, 8, 5, "15324"));
         
         
     }
